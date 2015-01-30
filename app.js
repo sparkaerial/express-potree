@@ -56,7 +56,8 @@ app.use(function(err, req, res, next) {
     });
 });
 
-app.listen(3000);
+
+app.listen(process.env.PORT || 3000);
 console.log('Listening to port localhost:3000');
 
 

@@ -10,4 +10,8 @@ router.get('/pointcloud', function(req, res) {
   res.render('lion_las');
 });
 
+router.get('/pointcloud2', function(req, res) {
+  res.render('lion_las_two');
+});
+
 module.exports = router;
